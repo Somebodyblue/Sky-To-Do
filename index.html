@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sky To-do</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="ico/x-icon" href="favicon.ico">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<section class="toDo">
+    <h2>Sky To-do</h2>
+    <div class="input">
+        <input type="text" class="inputField" 
+        id="toDoInput" placeholder="Add a task"/>
+        <button class="button">
+            Add
+        </button>
+    </div>
+    <ul class="scroll">
+        <li id="toDoList"></li>
+    </ul>
+    <div>
+        <hr class="counter"/>
+        <div class="counterContainer">
+            <p><span id="toDoCount">0 </span> items total</p>
+            <button id="deleteButton">Delete All</button>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer">
+        <p class="madeBy">Made By</p>
+        <p class="author">Tomás García</p>
+    </div>
+</footer>
+</body>
+</html>
